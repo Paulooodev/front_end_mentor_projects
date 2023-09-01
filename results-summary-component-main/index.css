@@ -1,0 +1,209 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&display=swap');
+
+
+body{
+    background-color: hsl(221, 100%, 96%);
+    margin-top: 80px;
+}
+
+/* Styling for the first container */
+.container{
+    width: 500px;
+    height: 350px;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    border-radius: 2rem;
+    display: flex;
+    
+}
+
+/* End of styling for the second container */
+
+
+
+/* Styling for the box1 */
+.box1{
+    width:250px;
+    height: 350px;
+    border-radius: 2rem;
+    background:linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%))
+}
+
+.results{
+    padding-top: 15px;
+    font-size: 15px;
+    text-align: center;
+    color: hsla(217, 45%, 22%, 0.929);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+span{
+    font-size: 50px;
+    font-family:'Hanken Grotesk', sans-serif;
+    color: white;
+}
+
+.score{
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 12px;
+    margin-top: 55px;
+    background-image: rgba(82, 38, 205, 0.553);
+}
+
+.remarks{
+    color: white;
+    font-family:'Hanken Grotesk', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 19px;
+}
+
+p{
+    color: white;
+    font-family:'Hanken Grotesk', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/* End of styling for box 1 */
+
+/* Styling for box 2 and sub-container*/
+
+.sub-container{
+    margin-bottom: 2.5rem;
+}
+
+
+
+.box2{
+    font-family:'Hanken Grotesk', sans-serif;
+}
+
+.details{
+    color:hsl(218, 44%, 22%);
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.mini_box_container img{
+    align-items: end;
+    /* padding-block: 10px; */
+    width:20px;
+    height:20px;
+    fill: none;
+    
+}
+
+
+
+
+#details1{
+    background-color: hsla(0, 100%, 67%, 0.05);
+    /* word-spacing: 90px; */
+    margin-left: 5px;
+    /* height:20px; */
+    color: hsl(0, 100%, 67%);
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+    /* margin-bottom: 10px; */
+    text-align: center;
+    padding-block: 10px;
+    gap: 2rem;
+    /* justify-content: space-between; */
+}
+
+#details2{
+    background-color: hsla(39, 100%, 56%, 0.073);
+    color: hsl(39, 100%, 56%);
+    text-align: center;
+    /* height:20px; */
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+    margin-left: 5px;
+    /* word-spacing: 90px; */
+    padding-block: 10px;
+    /* margin-bottom: 1rem; */
+    gap: 40px;
+}
+
+
+#details3{
+    background-color: hsla(166, 100%, 37%, 0.048);
+    color: hsl(166, 100%, 37%);
+    /* height: 20px; */
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+    margin-left: 5px;
+    /* word-spacing: 90px; */
+    padding-block: 12px;
+    text-align: center;
+    /* margin-top: 1rem; */
+    /* margin-bottom: 1rem; */
+}
+
+
+#details4{
+    background-color: hsla(234, 85%, 45%, 0.059);
+    /* height:20px; */
+    color: hsl(234, 85%, 45%);
+    /* justify-content: space-between; */
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+    margin-left: 5px;
+    /* word-spacing: 90px; */
+    padding-block: 10px;
+    text-align: center;
+}
+
+
+.subjectScore{
+    color:hsl(218, 44%, 22%);
+    font-size: 1rem;
+    gap:30px
+}
+
+.mini_box_container{
+    width:220px;
+    height:40px;
+    /* margin: auto; */
+    margin-left: 10px;
+    /* margin-top: 1rem; */
+    /* height:40px; */
+    gap: 2rem;
+}
+
+/* button styling */
+
+button{
+    /* margin: auto; */
+    color: hsl(0, 0%, 100%);
+    background:linear-gradient(hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    border-radius: 2rem;
+    margin: 18px;
+    margin-left: 40px;
+    width:170px;
+    height: 40px;
+    font-family:'Hanken Grotesk', sans-serif;
+    border: 5px;
+}
+
+button:hover{
+    background:hsl(218, 44%, 22%); ;
+}
+
+
+
+
+

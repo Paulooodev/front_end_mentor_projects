@@ -1,0 +1,41 @@
+
+img{
+    height: 150px; width: 150px; border-radius: 0.5rem;
+    margin: auto;
+    
+}
+
+
+.code img{
+    align-items: center;
+    padding: 5px;
+}
+
+
+div.container{
+    height: 100vh;
+   margin: auto;
+   background-color: hsl(0, 0%, 100%);
+    border-radius: 0.9rem;
+   width: 100px;
+    align-items: center;
+    padding: 100px;
+}
+
+
+h1{
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    text-indent: 5px;
+    font-size: larger;
+    
+    
+}
+
+p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
