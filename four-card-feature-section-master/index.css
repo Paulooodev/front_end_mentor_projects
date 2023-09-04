@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+:root{
+    /* primary colours */
+    --primaryColour1: hsl(0, 78%, 62%);
+    --primaryColour2: hsl(180, 62%, 55%);
+    --primaryColour3: hsl(34, 97%, 64%);
+    --primaryColour4: hsl(212, 86%, 64%);
+
+    /* Neutral Colours */
+    --VeryDarkBlue: hsl(234, 12%, 34%);
+    --GrayishBlue: hsl(229, 6%, 66%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+    
+    /* Typography */
+    --parafsz: 15px;
+    --ftWtLight:200;
+    --ftWtMedium:400;
+    --ftWtHeavy:600;
+}
+/* Mobile First Approach */
+
+body{
+    background-color: var(--VeryLightGray);
+    /* width:100vw;
+    height:1200px; */
+}
+
+/* main container and its component styling */
+
+
+.mainContainer{
+    width: 100vw;
+    height:1200px;
+}
+
+h1{
+    font-weight: var(--ftWtLight);
+    margin-bottom: 10px;
+    margin-left: 3rem;
+}
+
+
+span{
+    color: var(--VeryDarkBlue);
+    font-weight: var(--ftWtHeavy);
+}
+
+#header{
+    color: var(--GrayishBlue);
+    font-weight: var(--ftWtLight);
+    margin-left: 3.5rem;
+    text-indent: -7px;
+    margin-bottom: 4rem;
+}
+
+/* End of styling of main container and its component */
+
+/* Styling for containers, miniContainers and its component */
+
+
+.box1{
+    background-color: white;
+    border-top: solid var(--primaryColour2);
+    width: 360px;
+    border-radius: 0.4rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+h2{
+    color: var(--VeryDarkBlue);
+    margin-left: 15px;
+}
+
+p{
+    margin-left: 15px; 
+    font-weight: var(--ftWtLight);
+    color: var(--GrayishBlue);
+}
+
+
+.miniContainer1{
+    display: flex;
+    margin-left: 17rem;
+}
+
+
+.box2{
+    background-color: white;
+    border-top: solid var(--primaryColour1);
+    width: 360px;
+    border-radius: 0.4rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.miniContainer2{
+    display: flex;
+    margin-left: 17rem;
+}
+
+
+.box3{
+    background-color: white;
+    border-top: solid var(--primaryColour3);
+    width: 360px;
+    border-radius: 0.4rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.miniContainer3{
+    display: flex;
+    margin-left: 17rem;
+}
+.box4{
+    background-color: white;
+    border-top: solid var(--primaryColour4);
+    width: 360px;
+    border-radius: 0.4rem;
+    margin-left: 3rem;
+    margin-left: 3rem;
+}
+
+
+.miniContainer4{
+    display: flex;
+    margin-left: 17rem;
+    
+}
+
+

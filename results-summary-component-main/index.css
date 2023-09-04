@@ -84,7 +84,8 @@ p{
 }
 
 .subBox1{
-    display:flex;
+    display:inline-flex;
+   
 }
 
 
@@ -109,31 +110,31 @@ p{
 
 .subBox1 #details1{
     gap: 5px;
-    padding-block: 10px;
+    padding-block: -10px;
 }
 
 
 #details1{
-    margin-left: 5px;
+    margin-left: 10px;
     color: hsl(0, 100%, 67%);
-    padding-block: 1rem;
+    padding-block: rem;
 }
 
 #details2{
     color: hsl(39, 100%, 56%);
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 
 #details3{
     color: hsl(166, 100%, 37%);
-    margin-left: 5px;  
+    margin-left: 10px;  
 }
 
 
 #details4{
     color: hsl(234, 85%, 45%);
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 
